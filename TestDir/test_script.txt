@@ -1,0 +1,27 @@
+struct InputData
+{
+	var count:int;
+	var delay:float;
+}
+
+func main():void
+{
+	var input:InputData;
+
+	print("input count: ");
+	input.count = get_int();
+
+	print("input delay: ");
+	input.delay = get_float();
+
+	while(input.count > 0)
+	{
+		print(input.count);
+		println();
+		wait(input.delay);
+		
+		input.count = input.count - 1;
+	}
+	
+	print(input.count);
+}
