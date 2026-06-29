@@ -1,0 +1,11 @@
+.vs/
+**/bin/
+**/obj/
+
+*.sln
+**/*.vcxproj
+**/*.vcxproj.user
+**/*.vcxproj.filters
+**/*.args.json
+
+premake5.exe
