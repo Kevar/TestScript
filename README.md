@@ -15,6 +15,7 @@ premake5.exe vs2022
 Open the solution, compile it and launch the TestApp project (should be already set as default project and command line arguments should be properly defined)
 
 ## Command line arguments
+```console
 -h: display an help
 -tok: display tokens from tokenization phase
 -ast: display Abstract Syntax Tree from parser phase
@@ -22,3 +23,4 @@ Open the solution, compile it and launch the TestApp project (should be already 
 -ops: display bytecode operation emitted from compilation phase
 -stacks: display the status of memory and execution stacks at the end of execution
 -noexe: doesn't execute the script, allowing to check data from various steps (previous options)
+```
